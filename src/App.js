@@ -10,7 +10,6 @@ import Padre from "./components/ComunicacionComponente";
 import CicloVida from "./components/CicloVida";
 import AjaxApis from "./components/AjaxApis";
 import "./App.css";
-
 function App() {
   let nombre = "Johann";
   let auth = false;
@@ -100,5 +99,4 @@ function App() {
     </div>
   );
 }
-
 export default App;

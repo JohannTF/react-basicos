@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Componente from './Componente';
 
 export class EventosES6 extends Component{
     constructor(props){
@@ -7,7 +6,7 @@ export class EventosES6 extends Component{
         this.state = {
             contador:0
         };
-        this.sumar = this.sumar.bind(this);
+        this.sumar = this.sumar.bind(this); // Enlaza el contexto de sumar al contexto de sumar
         this.restar = this.restar.bind(this);
     }
 
@@ -46,7 +45,7 @@ export class EventosES7 extends Component{
         contador:0
     };
 
-    sumar = (e) => {
+    sumar = (e) => { // Se usa arrow function para decir que hacemos referencia al contexto global de la clase
         console.log("Sumando");
         this.setState({
             contador: this.state.contador + 1

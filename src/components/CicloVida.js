@@ -63,6 +63,7 @@ export default class CicloVida extends Component {
         return(
             <>
                 <h2>Ciclo de Vdida de los Componentes de Clase</h2>
+                {console.log(this.state.visible)}
                 {this.state.visible && <Reloj hora = {this.state.hora}/>}
                 <button onClick={this.iniciar}>Iniciar</button>
                 <button onClick={this.detener}>Detener</button>

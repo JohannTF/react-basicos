@@ -10,7 +10,7 @@ function Pokemon(props) {
 export default class AjaxApis extends Component {
     // Estado inicial
     state = {
-        pokemons:[],
+        pokemons:[]
     };
     // En el método componenteDidMount es donde van las peticiones
     componentDidMount(){
@@ -18,12 +18,12 @@ export default class AjaxApis extends Component {
         fetch(url)
         .then(res => res.json())
         .then(json => {
-            console.log(json);
-            json.results.forEach(el => {
+            //console.log(json);
+            json.results.forEach((el) => {
                 fetch(el.url)
                 .then(res => res.json())
                 .then(json => {
-                    console.log(json);
+                    //console.log(json);
                     let pokemon = {
                         id:json.id,
                         name:json.name,
@@ -43,9 +43,11 @@ export default class AjaxApis extends Component {
             <>
             <h2>Peticiones Asíncronas y componentes de clase</h2>
             {/* El key es IMPORTANTISIMO, lo utiliza react para identificar c/u de sus */}
-            {this.state.pokemons.map((el) => (
+            {
+                this.state.pokemons.map((el) => (
                 <Pokemon key={el.id} name={el.name} avatar={el.avatar}/>
-            ))}
+                ))
+            }
             </>
         );
     }

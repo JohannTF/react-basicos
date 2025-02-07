@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import data from "../helpers/data.json";
 
-function ElementoLista(props) {
+function ElementoLista(props) { // El prop, es un objeto que almacena a todas las propiedades que se le pasen a la etiqueta
+  // Como se le pasa la propiedad 'el', este engloba la información para cada posición del arreglo de objetos de data.json
   return (
     <li>
       <a href={props.el.web} target="_blank" rel="noreferrer">{props.el.name}</a>

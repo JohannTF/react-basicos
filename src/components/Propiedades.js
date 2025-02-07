@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 export default function Propiedades(props) {
     // props.attribute Significa 'toma el valor que tienes en el atributo attribute y hazle esto' 
-    console.log(Propiedades)
+    //console.log(props);
     return (
         <div>
             <h2>{props.porDefecto}</h2>
