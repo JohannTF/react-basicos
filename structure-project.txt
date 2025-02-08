@@ -1,0 +1,36 @@
+.
+├── README.md
+├── package-lock.json
+├── package.json
+├── public
+│   ├── favicon.ico
+│   ├── index.html
+│   ├── manifest.json
+│   └── robots.txt
+├── src
+│   ├── App.css
+│   ├── App.js
+│   ├── App.test.js
+│   ├── components
+│   │   ├── AjaxApis.js
+│   │   ├── CicloVida.js
+│   │   ├── Componente.js
+│   │   ├── ComunicacionComponente.js
+│   │   ├── Estado.js
+│   │   ├── Eventos.js
+│   │   ├── Propiedades.js
+│   │   ├── ReactSnippets.jsx
+│   │   ├── RenderizadoCondicional.js
+│   │   └── RenderizadoElementos.js
+│   ├── helpers
+│   │   └── data.json
+│   ├── index.css
+│   ├── index.js
+│   ├── logo.svg
+│   ├── reportWebVitals.js
+│   └── setupTests.js
+├── structure-project.txt
+├── structure-proyect.txt
+└── structure.txt
+
+4 directories, 29 files

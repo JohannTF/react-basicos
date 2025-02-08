@@ -1,70 +1,100 @@
-# Getting Started with Create React App
+# 📘 React Basics Study Repo
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este repositorio contiene ejemplos y conceptos básicos de **React** para aprender y practicar un poco.
 
-## Available Scripts
+## 📖 Índice
+> - [📌 Temas cubiertos](#-temas-cubiertos)
+> - [🚀 Cómo usar este repositorio](#-cómo-usar-este-repositorio)
+> - [📂 Estructura del proyecto](#-estructura-del-proyecto)
+> - [📜 Available Scripts](#-available-scripts)
+>   - [🚀 `npm start`](#-npm-start)
+>   - [🧪 `npm test`](#-npm-test)
+>   - [🏗️ `npm run build`](#️-npm-run-build)
+>   - [⚠️ `npm run eject`](#️-npm-run-eject)
+> - [📚 Recursos adicionales](#-recursos-adicionales)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 📌 Temas cubiertos
+✅ **Conceptos fundamentales de React**:
+- 🔹 **Eventos en React**  
+- 🔹 **Propiedades (Props)**  
+- 🔹 **Renderizado condicional**  
+- 🔹 **Ciclo de vida de los componentes**  
+- 🔹 **Comunicación entre componentes**  
+- 🔹 **Uso de APIs con Fetch**
+- 🔹 **Renderizado de elementos**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🚀 Cómo usar este repositorio
+⚡ **Antes de empezar, asegúrate de tener [Node.js](https://nodejs.org/) instalado en tu sistema.**  
+Luego, sigue estos pasos:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1️⃣ **Clonar el repositorio**
+```bash
+git clone https://github.com/JohannTF/react-basicos.git && cd react-basicos
+```
+2️⃣ **Instalar dependencias**
+``` sh
+npm install
+```
+3️⃣ **Ejecutar el servidor de desarrollo**
+``` sh
+npm start
+```
+📌 Luego, abre 👉 http://localhost:3000 en tu navegador.
 
-### `npm test`
+## 📂 Estructura del proyecto
+``` sh
+.
+├── README.md
+├── package-lock.json
+├── package.json
+├── public
+│   ├── favicon.ico
+│   ├── index.html
+│   ├── manifest.json
+│   └── robots.txt
+├── src
+│   ├── App.css
+│   ├── App.js
+│   ├── App.test.js
+│   ├── components
+│   │   ├── AjaxApis.js
+│   │   ├── CicloVida.js
+│   │   ├── Componente.js
+│   │   ├── ComunicacionComponente.js
+│   │   ├── Estado.js
+│   │   ├── Eventos.js
+│   │   ├── Propiedades.js
+│   │   ├── ReactSnippets.jsx
+│   │   ├── RenderizadoCondicional.js
+│   │   └── RenderizadoElementos.js
+│   ├── helpers
+│   │   └── data.json
+│   ├── index.css
+│   ├── index.js
+│   ├── logo.svg
+│   ├── reportWebVitals.js
+│   └── setupTests.js
+├── structure-project.txt
+├── structure-proyect.txt
+└── structure.txt
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+4 directories, 29 files
+```
 
-### `npm run build`
+## 📜 Available Scripts
+En el directorio del proyecto, puedes ejecutar cualquiera de los siguientes comandos definidos en [package.json](./package.json):
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 🚀 `npm start`
+Ejecuta la aplicación en **modo de desarrollo**.  
+Abre 👉 [http://localhost:3000](http://localhost:3000) en tu navegador.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 🧪 `npm test`
+Ejecuta el test runner en **modo interactivo**.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 🏗️ `npm run build`
+Genera una **versión optimizada** de la aplicación en la carpeta `build/`.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### ⚠️ `npm run eject`
+🔴 **Nota:** Esta es una acción irreversible. Extrae todas las configuraciones del proyecto y te da control total sobre la configuración de Webpack, Babel y más.
